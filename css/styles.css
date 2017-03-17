@@ -1,0 +1,55 @@
+body{
+  background-color: rgb(39,40,34);
+}
+
+h2, th {
+  color: white;
+}
+
+td {
+  color: orange;
+}
+
+.mini {
+  width: 50px
+}
+
+.inline {
+  display: inline-block;
+  /*margin-right: 50px;*/
+}
+
+#equipeCreation {
+  width: 50px;
+}
+
+#equipeLogo, #equipeNom{
+  width: 250px;
+}
+
+.buteurs {
+  width: 140px;
+  background-color: orange;
+  color: white;
+  position: absolute;
+  opacity: .9;
+  font-size: 1rem;
+  padding:6px;
+  display: none;
+  left: 20px;
+  top: 20px;
+  border-radius: 6px
+}
+
+.resultat {
+  cursor: pointer;
+  position: relative;
+}
+
+.success {
+  color: #4F8A10
+}
+
+.error {
+  color: #D8000C
+}
